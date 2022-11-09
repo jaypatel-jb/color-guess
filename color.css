@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0%;
+}
+.hbox{
+    background-color: rgb(9, 170, 228);
+   max-height: 30% ; 
+}
+.btns{
+    height: 3vh;
+    /* background-color: brown; */
+}
+.cbox{
+    margin: auto;
+   max-width: 100vh;
+   height: 65vh;
+   /* margin: 0 auto; */
+   padding: 20px;
+   background-color: rgb(22, 1, 1);
+
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 10px; */
+    /* background-color: transparent; */
+}
+#Reset{
+    padding: 3px;
+}
+#Reset:hover{
+color: white;
+background-color: rgb(9, 170, 228); 
+cursor: pointer;
+}
+.box{
+  width: 30%;
+  background-color: bisque;
+  padding-bottom: 30%;
+  margin: 1.66%;
+  float:left;
+  border-radius: 25px;
+  transition: 1s;
+  cursor: pointer;
+
+}
+h1{
+    text-align: center;
+    color: white;
+}
+#st{
+    display: block;
+    font-size: 2em;
+}
+.box:hover{
+   
+}
