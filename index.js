@@ -3,7 +3,7 @@ let box = document.querySelectorAll(".box")
 let btn = document.getElementById("Reset")
 let rgbtext = document.getElementById("st");
 let gamebox = document.querySelector(".hbox")
-let a;
+let message=document.getElementById("message")
 
 btn.addEventListener("click", function () {
   let rbox = Math.floor(Math.random() * box.length);
@@ -38,8 +38,10 @@ function checkColor(e) {
   if (bg == afilter) {
     box.forEach((item) => {
       item.style.backgroundColor = bg;
+      message.innerText="Great!"
     })
   } else {
     this.style.backgroundColor = 'transparent'
+    message.innerText="try again"
   }
 }
