@@ -11,7 +11,7 @@ btn.addEventListener("click", function () {
   let a = one();
   afilter = a.replace(/\s+/g, '');
 
-  gamebox.style.backgroundColor = afilter
+  // gamebox.style.backgroundColor = afilter
 
 
   rgbtext.innerText = afilter
